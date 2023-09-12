@@ -1,11 +1,14 @@
-import './App.css';
 import styled from 'styled-components';
+import Header from './components/Header';
+import { GlobalStyles } from './components/GlobalStyles';
 
 
 function App() {
     return (
         <div className="App">
-            <Title>Welcome to IT-INCUBATOR</Title>
+            <Header/>
+            <Title>My Portfolio</Title>
+            <GlobalStyles/>
         </div>
     );
 }
